@@ -248,3 +248,80 @@
     font-weight: 700px;
     margin-bottom: 50px;
 }
+/* footer styles starts here  */
+.footer-containers{
+    width: 100%;
+    height: 70vh;
+    background-image: url('asset/image/footer-bg.png'),
+    linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9));
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 250px;
+    border-bottom: 1px solid white;
+    padding-bottom: 100px;
+}
+.footer-icon-containers{
+    width: 20%;
+    line-height: 50px;
+    margin-left: 100px;
+}
+.icon-desc{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+}
+.icons a{
+     font-size: 25px;
+     text-decoration: none;
+     color: #fff;
+}
+.icons .anchor{
+    margin-left: 10px;
+}
+.links{
+    width: 15%;
+    /* margin-left: 50px;
+    margin-right: 40px; */
+}
+.link-desc{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 40px;
+}
+.links-title{
+    font-size: 30px;
+}
+.supports{
+    width: 15%;
+}
+.supports-title{
+    font-size: 30px;
+    font-weight: 600px;
+}
+.supports-desc{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 40px;
+}
+.contact{
+    width: 18%;
+}
+.contact-title{
+    font-size: 30px;
+    font-weight: 600px;
+}
+.contact-desc{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 40px;
+}
