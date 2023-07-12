@@ -190,7 +190,7 @@
     display: flex;
     justify-content: baseline;
     align-items: center;
-    background-color: red;
+    background-color: rgb(240, 21, 21);
     border-radius: 25px;
     margin-left: 200px;
     color: white;
@@ -203,6 +203,10 @@
     border-right: 2px solid gray;
     margin-left: 100px;
     padding-right: 10px;
+}
+.appointment-phone-num{
+    margin-left: 10px;
+    line-height: 20px;
 }
 .appointment-desc{
     width: 500px;
@@ -245,7 +249,7 @@
     margin-bottom: 30px;
 }
 .blog-description{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700px;
     margin-bottom: 50px;
 }
@@ -259,6 +263,7 @@
     color: white;
     position: relative;
     text-align: center;
+    margin-top: 60px;
 
 }
 .footer-content{
